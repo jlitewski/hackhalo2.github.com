@@ -1,0 +1,13 @@
+com.hackhalo2.rendering.advsound
+com.jcraft.jogg
+com.jcraft.jorbis
+com.paulscode.sound.codecs
+com.paulscode.sound.libraries
+de.jarnbjo.ogg
+de.jarnbjo.util.audio
+de.jarnbjo.util.io
+de.jarnbjo.vorbis
+ibxm
+org.xiph.speex
+org.xiph.speex.player
+org.xiph.speex.spi
