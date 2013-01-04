@@ -2,15 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>loading...</title>
+    <title>Loading Page...</title>
 	  <meta name="description" content="HACKhalo2's Github Page">
 	  <meta name="author" content="Jacob 'HACKhalo2' Litewski">
     <script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript"></script>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> <!-- The Bootstrap css code -->
+    <link href="assets/css/style.css" rel="stylesheet" media="screen"> <!-- My css code -->
     <script type="text/javascript">
       //Load a given HTML file to the given ID
-      //So loadContent('body', 'body_index.html'); will load the page "body_index.html" to the tag
-      //with the ID "Body"
+      //So loadContent('#body', 'body_index.html'); will load the page "body_index.html" to the tag
+      //with the ID "#body"
       function loadContent(id, url) {
         //Use the jQuery .load(url) function because it's a fuckton easier to use then XmlHTTPObjects
         //Also use it because Twitter's Bootstrap needs it.
@@ -18,7 +19,7 @@
       }
     </script>
   </head>
-  <body style="padding:40px">
+  <body>
     <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     <script type="text/javascript">
       //Runs once the page loads
@@ -33,7 +34,6 @@
       });
     </script>
     <span id="header"></span>
-    
     <span id="body"></span>
   </body>
   <footer id="footer"></footer>

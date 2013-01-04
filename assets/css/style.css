@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+footer {
+  clear: both;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: lightgray;
+  border-radius: 6px 6px 6px 6px;
+  position:relative;
+}
+
+footer#footer-wrapper {
+  min-height:100%;
+  position:relative;
+}
+
+body {
+  padding-top: 40px;
+}
